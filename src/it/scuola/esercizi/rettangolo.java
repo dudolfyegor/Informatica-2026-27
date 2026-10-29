@@ -34,5 +34,5 @@ public class rettangolo {
     public double getPerimetro() {
         return 2 * (getBase() + getAltezza());
     }
-}
+}// branch main
 
