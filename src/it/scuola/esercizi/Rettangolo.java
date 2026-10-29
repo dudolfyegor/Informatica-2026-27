@@ -1,12 +1,11 @@
 package it.scuola.esercizi;
 
-public class rettangolo {
 
+public class Rettangolo {
     private double x1;
     private double y1;
     private double x2;
     private double y2;
-
 
     public Rettangolo(double x1, double y1, double x2, double y2) {
         this.x1 = x1;
@@ -15,16 +14,13 @@ public class rettangolo {
         this.y2 = y2;
     }
 
-
     public double getBase() {
         return Math.abs(x2 - x1);
     }
 
-
     public double getAltezza() {
         return Math.abs(y2 - y1);
     }
-
 
     public double getArea() {
         return getBase() * getAltezza();
@@ -34,5 +30,4 @@ public class rettangolo {
     public double getPerimetro() {
         return 2 * (getBase() + getAltezza());
     }
-}// branch main
-
+}
